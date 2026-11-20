@@ -1,0 +1,32 @@
+[
+    {
+        "Modelo": "Baseline 0: Mediana Global",
+        "MAE": 9.1992,
+        "RMSE": 14.2975,
+        "R2": -0.0852
+    },
+    {
+        "Modelo": "Baseline 1: Dummy por Par Origen-Destino",
+        "MAE": 4.9237,
+        "RMSE": 7.7802,
+        "R2": 0.6787
+    },
+    {
+        "Modelo": "Baseline 2: Regresión Ridge Regularizada",
+        "MAE": 7.3279,
+        "RMSE": 10.2034,
+        "R2": 0.4473
+    },
+    {
+        "Modelo": "HistGradientBoosting Optimizado (L1 + OD)",
+        "MAE": 4.0651,
+        "RMSE": 6.4749,
+        "R2": 0.7774
+    },
+    {
+        "Modelo": "Random Forest Optimizado",
+        "MAE": 7.2496,
+        "RMSE": 9.7786,
+        "R2": 0.4924
+    }
+]
