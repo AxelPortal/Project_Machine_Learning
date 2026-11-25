@@ -16,7 +16,7 @@ Este repositorio contiene el desarrollo del proyecto de Machine Learning para pr
 ## 2. Estructura del Proyecto
 
 ```text
-MachineLearning_Proyecto/
+Project_Machine_Learning/
 ├── data/
 │   ├── raw/                                 # Archivos Parquet originales (Enero - Junio 2026)
 │   │   ├── yellow_tripdata_2026-01.parquet
@@ -28,6 +28,8 @@ MachineLearning_Proyecto/
 │   ├── processed/                           # Dataset limpio y optimizado (16.4M filas, zstd)
 │   │   └── yellow_tripdata_processed.parquet
 │   └── README.md                            # Diccionario y descripción de datos
+├── models/
+│   └── best_model.joblib                    # Modelo ganador entrenado y serializado
 ├── notebooks/
 │   ├── 01_exploracion_inicial.ipynb         # Análisis Exploratorio de Datos (EDA)
 │   ├── 02_limpieza_features.ipynb           # Limpieza, Downcasting e Ingeniería de Features
